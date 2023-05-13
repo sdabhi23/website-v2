@@ -1,0 +1,33 @@
+body[data-theme="auto"] .theme-icon-when-auto {
+    display: block;
+}
+
+body[data-theme="dark"] .theme-icon-when-dark {
+    display: block;
+}
+
+body[data-theme="light"] .theme-icon-when-light {
+    display: block;
+}
+
+.theme-toggle {
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background: transparent;
+    color: var(--body-color);
+}
+
+.theme-toggle > div {
+    display: none;
+}
+
+.theme-toggle svg {
+    height: 3rem;
+    width: 3rem;
+}
+
+.theme-toggle-header {
+    float: left;
+    padding: 1rem 0.5rem;
+}
