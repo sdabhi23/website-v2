@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.font-hso {
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 2rem 8rem;
+    /* background-color: #292728;
+    color: #feffff; */
+}
+
+#site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#site-header-menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 1.3em;
+}
+
+#site-header-menu > span {
+    /* border: #3b3b3b solid 2px; */
+    /* border-radius: 7px; */
+    /* font-size: 0.85em; */
+    /* padding: 0.35rem; */
+    cursor: pointer;
+    padding: 0.5rem;
+    border: transparent solid 2px;
+    border-radius: 7px;
+    transition: all 1s ease;
+}
+
+#site-header-menu > span:hover {
+    border-color: #3b3b3b;
+    /* font-size: 0.85em; */
+}
+
+main {
+    width: 60%;
+}
+
+#role-chip {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    color: #e07849;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 7px;
+    font-size: 1.3em;
+    background-color: #3b3b3b;
+    max-width: 12rem;
+    text-align: center;
+}
+
+#dev-name {
+    font-size: 5em;
+    margin-bottom: 1.5rem;
+}
+
+#social-links {
+    margin-top: 1.5rem;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+#social-links > a {
+    background-color: #3b3b3b;
+    color: #feffff;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
