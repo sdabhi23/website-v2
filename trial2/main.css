@@ -11,8 +11,7 @@
 
 body {
     margin: 2rem 8rem;
-    /* background-color: #292728;
-    color: #feffff; */
+    background-color: #3b3b3b20;
 }
 
 #site-header {
@@ -30,10 +29,6 @@ body {
 }
 
 #site-header-menu > span {
-    /* border: #3b3b3b solid 2px; */
-    /* border-radius: 7px; */
-    /* font-size: 0.85em; */
-    /* padding: 0.35rem; */
     cursor: pointer;
     padding: 0.5rem;
     border: transparent solid 2px;
@@ -43,7 +38,6 @@ body {
 
 #site-header-menu > span:hover {
     border-color: #3b3b3b;
-    /* font-size: 0.85em; */
 }
 
 main {
@@ -87,4 +81,29 @@ main {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+}
+
+#contact-form-modal {
+    background-color: rgba(227, 227, 227, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    backdrop-filter: blur(2px);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-form-modal > div {
+    width: 50vw;
+    height: 70vh;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
