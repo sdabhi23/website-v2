@@ -138,6 +138,7 @@ main {
   border: 2px var(--color-fg) solid;
   object-fit: contain;
   box-shadow: var(--box-shadow-preset-1);
+  background-color: #fff;
 }
 
 /* contact form elements */
