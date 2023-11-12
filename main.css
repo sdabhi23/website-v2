@@ -45,15 +45,17 @@ body {
   font-size: 1.3em;
 }
 
-#site-header-menu span {
+#site-header-menu a {
+  color: var(--color-fg);
   cursor: pointer;
   padding: 0.5rem;
   border: transparent solid 2px;
   border-radius: 7px;
   transition: all 0.5s ease;
+  text-decoration: none;
 }
 
-#site-header-menu span:hover {
+#site-header-menu a:hover {
   border-color: var(--color-fg);
   /* color: #e07849; */
 }
